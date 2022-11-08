@@ -1,0 +1,44 @@
+{
+  "name": "covid-tracker",
+  "version": "1.0.0",
+  "description": "A VueJS-based webapp for tracking Covid-19 statistics.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/covid-tracker.git"
+  },
+  "keywords": [
+    "covid",
+    "tracker",
+    "covid-tracker"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/covid-tracker/issues"
+  },
+  "homepage": "https://github.com/universal-projects/covid-tracker#readme",
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.4",
+		"moment": "^2.24.0",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "vue-cli-plugin-tailwind": "~2.0.6"
+  }
+}
